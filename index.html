@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+</head>
+<body>
+    <h1> AI LÀ NGƯỜI ĐẸP TRAI NHẤT LỚP A7 </h1>
+    <p>
+        chào mừng các bạn đã đến với cuộc bầu cử này hãy cùng nhau bình chọn ra người đẹp trai nhất lớp A7 nhé.
+    </p>
+    <form>
+        <label for="fullname">Họ và tên:</label>
+        <br>
+        <input type="text" id="fullname" 
+        name="fullname"
+        placeholder="Nhập họ và tên"
+        size="30" 
+        required/>
+        <br>
+        <br>
+        <label for="phone">Số điện thoại:</label>
+        <br>
+        <input type="tel" id="phone" 
+        name="phone" 
+        placeholder="Nhập số điện thoại" 
+        size="30"/>
+        <br>
+        <br>
+        <label for="story">Ấn tượng của bạn về người đẹp trai nhất lớp A7:</label>
+        <br>
+        <textarea id="story" 
+        name="story" 
+        placeholder="Chia sẻ câu chuyện của bạn" 
+        rows="4" 
+        cols="50">
+        </textarea>
+        <br>
+        <br>
+        <fieldset>
+            <legend>Giới tính</legend>
+            <input type="radio" 
+            id="male" 
+            name="gender" 
+            value="male">
+            <label for="male">Nam</label>
+            <input type="radio" 
+            id="female" 
+            name="gender" 
+            value="female">
+            <label for="female">Nữ</label>
+        </fieldset>
+        <br>
+        <br>
+        <label for="position">Bình chọn người đẹp trai nhất lớp A7:</label>
+        <select id="position" name="position">
+            <option value="1">VOTE ĐÊ.........</option>
+            <option value="2">Đặng Học Thuyết</option>
+            <option value="3">Nguyễn Tiến Thịnh</option>
+            <option value="4">Nguyễn Quốc Cường</option>
+            <option value="5">Hồ Gia Đạt</option>
+            <option value="6">Lê Trung Nguyên</option>
+            <option value="7">Lê Tiến Phát</option>
+        </select>
+        <br>
+        <br>
+        <label for ="fan-level">Bạn cho nhiêu điểm</label>
+        <input type ="number" 
+        id="fan-level" 
+        name="fan-level" 
+        min="1" 
+        max="10"
+        step="1"
+        />
+        <label for="lý do yêu thích">Lý do yêu thích:</label>
+        <input type="text" 
+        id="lý do yêu thích"
+        name="lý do yêu thích"
+        placeholder="Nhập lý do bạn yêu thích người này"
+        list="lý do yêu thích"
+        />
+        <datalist id="lý do yêu thích">
+            <option value="Đẹp trai">
+            <option value="Học giỏi">
+            <option value="Tốt bụng">
+            <option value="Hài hước">
+        </datalist>
+        <p><b>Bạn có cam kết đây là tự nguyện không phải ép buộc?</b></p>
+        <label for="agree">không tất cả lựa chọn do tôi tự nguyện</label>
+        <input type="checkbox" 
+        id="agree" 
+        name="agree" 
+        checked
+        />
+        <br>
+        <button type="submit">Gửi bình chọn</button>
+    </form>
+</body>
+</html>
